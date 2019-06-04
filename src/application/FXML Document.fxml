@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import org.controlsfx.control.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="501.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLDocumentController">
+	<children>
+		<TabPane layoutY="-3.0" prefHeight="504.0" prefWidth="697.0" tabClosingPolicy="UNAVAILABLE">
+			<tabs>
+				<Tab closable="false" text="Abilities">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="471.0" prefWidth="677.0">
+							<children>
+								<Button fx:id="rollAbilitiesBUT" layoutX="14.0" layoutY="430.0" mnemonicParsing="false" onAction="#rollAbilities" text="Roll Abilities" />
+								<RadioButton fx:id="Strength1" layoutX="23.0" layoutY="34.0" mnemonicParsing="false" text="Strength">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability1" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Dexterity1" layoutX="101.0" layoutY="34.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability1" />
+								<RadioButton fx:id="Constitution1" layoutX="181.0" layoutY="34.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability1" />
+								<RadioButton fx:id="Intelligence1" layoutX="280.0" layoutY="34.0" mnemonicParsing="false" text="Intelligence" toggleGroup="$Ability1" />
+								<RadioButton fx:id="Wisdom1" layoutX="375.0" layoutY="34.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability1" />
+								<RadioButton fx:id="Charisma1" layoutX="449.0" layoutY="34.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability1" />
+								<TextField id="abilityTF1" fx:id="abilityTF1" editable="false" layoutX="557.0" layoutY="30.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Intelligence2" layoutX="280.0" layoutY="75.0" mnemonicParsing="false" text="Intelligence">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability2" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Wisdom2" layoutX="375.0" layoutY="75.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability2" />
+								<TextField id="abilityTF2" fx:id="abilityTF2" editable="false" layoutX="557.0" layoutY="71.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Strength2" layoutX="23.0" layoutY="75.0" mnemonicParsing="false" text="Strength" toggleGroup="$Ability2" />
+								<RadioButton fx:id="Constitution2" layoutX="181.0" layoutY="75.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability2" />
+								<RadioButton fx:id="Dexterity2" layoutX="101.0" layoutY="75.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability2" />
+								<RadioButton fx:id="Charisma2" layoutX="449.0" layoutY="75.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability2" />
+								<RadioButton fx:id="Intelligence3" layoutX="280.0" layoutY="116.0" mnemonicParsing="false" text="Intelligence">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability3" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Wisdom3" layoutX="375.0" layoutY="116.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability3" />
+								<TextField id="abilityTF3" fx:id="abilityTF3" editable="false" layoutX="557.0" layoutY="112.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Strength3" layoutX="23.0" layoutY="116.0" mnemonicParsing="false" text="Strength" toggleGroup="$Ability3" />
+								<RadioButton fx:id="Constitution3" layoutX="181.0" layoutY="116.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability3" />
+								<RadioButton fx:id="Dexterity3" layoutX="101.0" layoutY="116.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability3" />
+								<RadioButton fx:id="Charisma3" layoutX="449.0" layoutY="116.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability3" />
+								<RadioButton fx:id="Intelligence4" layoutX="280.0" layoutY="155.0" mnemonicParsing="false" text="Intelligence">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability4" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Wisdom4" layoutX="375.0" layoutY="155.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability4" />
+								<TextField id="abilityTF4" fx:id="abilityTF4" editable="false" layoutX="557.0" layoutY="151.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Strength4" layoutX="23.0" layoutY="155.0" mnemonicParsing="false" text="Strength" toggleGroup="$Ability4" />
+								<RadioButton fx:id="Constitution4" layoutX="181.0" layoutY="155.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability4" />
+								<RadioButton fx:id="Dexterity4" layoutX="101.0" layoutY="155.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability4" />
+								<RadioButton fx:id="Charisma4" layoutX="449.0" layoutY="155.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability4" />
+								<RadioButton fx:id="Intelligence5" layoutX="280.0" layoutY="194.0" mnemonicParsing="false" text="Intelligence">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability5" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Wisdom5" layoutX="375.0" layoutY="194.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability5" />
+								<TextField id="abilityTF5" fx:id="abilityTF5" editable="false" layoutX="557.0" layoutY="190.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Strength5" layoutX="23.0" layoutY="194.0" mnemonicParsing="false" text="Strength" toggleGroup="$Ability5" />
+								<RadioButton fx:id="Constitution5" layoutX="181.0" layoutY="194.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability5" />
+								<RadioButton fx:id="Dexterity5" layoutX="101.0" layoutY="194.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability5" />
+								<RadioButton fx:id="Charisma5" layoutX="449.0" layoutY="194.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability5" />
+								<RadioButton fx:id="Intelligence6" layoutX="280.0" layoutY="226.0" mnemonicParsing="false" text="Intelligence">
+									<toggleGroup>
+										<ToggleGroup fx:id="Ability6" />
+									</toggleGroup>
+								</RadioButton>
+								<RadioButton fx:id="Wisdom6" layoutX="375.0" layoutY="226.0" mnemonicParsing="false" text="Wisdom" toggleGroup="$Ability6" />
+								<TextField id="abilityTF6" fx:id="abilityTF6" editable="false" layoutX="557.0" layoutY="222.0" prefHeight="27.0" prefWidth="126.0" />
+								<RadioButton fx:id="Strength6" layoutX="23.0" layoutY="226.0" mnemonicParsing="false" text="Strength" toggleGroup="$Ability6" />
+								<RadioButton fx:id="Constitution6" layoutX="181.0" layoutY="226.0" mnemonicParsing="false" text="Constitution" toggleGroup="$Ability6" />
+								<RadioButton fx:id="Dexterity6" layoutX="101.0" layoutY="226.0" mnemonicParsing="false" text="Dexterity" toggleGroup="$Ability6" />
+								<RadioButton fx:id="Charisma6" layoutX="449.0" layoutY="226.0" mnemonicParsing="false" text="Charisma" toggleGroup="$Ability6" />
+								<Button fx:id="submitAbilities" layoutX="621.0" layoutY="430.0" mnemonicParsing="false" onAction="#submitAbilities" text="Submit" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab fx:id="raceTab" closable="false" disable="true" text="Race">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <RadioButton fx:id="HillDwarf" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverRace" text="Hill Dwarf" />
+                        <RadioButton fx:id="MountainDwarf" layoutX="135.0" layoutY="13.0" mnemonicParsing="false" onAction="#hoverRace" text="Mountain Dwarf" />
+                        <RadioButton fx:id="HighElf" layoutX="266.0" layoutY="13.0" mnemonicParsing="false" onAction="#hoverRace" text="High Elf" />
+                        <RadioButton fx:id="WoodElf" layoutX="397.0" layoutY="13.0" mnemonicParsing="false" onAction="#hoverRace" text="Wood Elf" />
+                        <RadioButton fx:id="DarkElf" layoutX="514.0" layoutY="13.0" mnemonicParsing="false" onAction="#hoverRace" text="Dark Elf (Drow)" />
+                        <RadioButton fx:id="LightfootHalfling" layoutX="135.0" layoutY="46.0" mnemonicParsing="false" onAction="#hoverRace" text="Lightfoot Halfling" />
+                        <RadioButton fx:id="StoutHalfling" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" onAction="#hoverRace" text="Stout Halfling" />
+                        <RadioButton fx:id="ForestGnome" layoutX="266.0" layoutY="46.0" mnemonicParsing="false" onAction="#hoverRace" text="Forest Gnome" />
+                        <RadioButton fx:id="RockGnome" layoutX="397.0" layoutY="46.0" mnemonicParsing="false" onAction="#hoverRace" text="Rock Gnome" />
+                        <RadioButton fx:id="DeepGnome" layoutX="514.0" layoutY="46.0" mnemonicParsing="false" onAction="#hoverRace" text="Deep Gnome" />
+                        <RadioButton fx:id="Human" layoutX="14.0" layoutY="76.0" mnemonicParsing="false" onAction="#hoverRace" text="Human" />
+                        <RadioButton fx:id="Dragonborn" layoutX="135.0" layoutY="76.0" mnemonicParsing="false" onAction="#hoverRace" text="Dragonborn" />
+                        <RadioButton fx:id="HalfElf" layoutX="266.0" layoutY="77.0" mnemonicParsing="false" onAction="#hoverRace" text="Half-Elf" />
+                        <RadioButton fx:id="HalfOrc" layoutX="397.0" layoutY="76.0" mnemonicParsing="false" onAction="#hoverRace" text="Half-Orc" />
+                        <RadioButton fx:id="Tiefling" layoutX="514.0" layoutY="77.0" mnemonicParsing="false" onAction="#hoverRace" text="Tiefling" />
+                        <RadioButton fx:id="Aarakocra" layoutX="14.0" layoutY="109.0" mnemonicParsing="false" onAction="#hoverRace" text="Aarakocra" />
+                        <RadioButton fx:id="Goliath" layoutX="135.0" layoutY="109.0" mnemonicParsing="false" onAction="#hoverRace" text="Goliath" />
+                        <RadioButton fx:id="FireGenasi" layoutX="266.0" layoutY="109.0" mnemonicParsing="false" onAction="#hoverRace" text="Fire Genasi" />
+                        <Button fx:id="submitRace" layoutX="587.0" layoutY="430.0" mnemonicParsing="false" onAction="#submitRace" text="Submit Race" />
+                        <TextArea fx:id="raceInfoTA" editable="false" layoutX="14.0" layoutY="178.0" prefHeight="279.0" prefWidth="545.0" promptText="Race Info" />
+                        <RadioButton fx:id="WaterGenasi" layoutX="398.0" layoutY="109.0" mnemonicParsing="false" onAction="#hoverRace" text="Water Genasi" />
+                        <RadioButton fx:id="EarthGenasi" layoutX="515.0" layoutY="109.0" mnemonicParsing="false" onAction="#hoverRace" text="Earth Genasi" />
+                        <RadioButton fx:id="AirGenasi" layoutX="14.0" layoutY="139.0" mnemonicParsing="false" onAction="#hoverRace" text="Air Genasi" />
+                     </children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab fx:id="classTab" closable="false" disable="true" text="Class">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <RadioButton fx:id="Barbarian" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Barbarian" />
+                        <RadioButton fx:id="Bard" layoutX="114.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Bard" />
+                        <RadioButton fx:id="Cleric" layoutX="214.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Cleric" />
+                        <RadioButton fx:id="Druid" layoutX="314.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Druid" />
+                        <RadioButton fx:id="Fighter" layoutX="414.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Fighter" />
+                        <RadioButton fx:id="Monk" layoutX="514.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverClass" text="Monk" />
+                        <RadioButton fx:id="Paladin" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Paladin" />
+                        <RadioButton fx:id="Ranger" layoutX="114.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Ranger" />
+                        <RadioButton fx:id="Rogue" layoutX="214.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Rogue" />
+                        <RadioButton fx:id="Sorcerer" layoutX="314.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Sorcerer" />
+                        <RadioButton fx:id="Warlock" layoutX="414.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Warlock" />
+                        <RadioButton fx:id="Wizard" layoutX="514.0" layoutY="42.0" mnemonicParsing="false" onAction="#hoverClass" text="Wizard" />
+                        <TextArea fx:id="classInfoTA" editable="false" layoutX="14.0" layoutY="87.0" prefHeight="370.0" prefWidth="553.0" promptText="Class Info" />
+                        <Button fx:id="submitClass" layoutX="584.0" layoutY="430.0" mnemonicParsing="false" onAction="#submitClass" text="Submit Class" />
+                        <CheckBox fx:id="multiClass" layoutX="581.0" layoutY="393.0" mnemonicParsing="false" text="Multi-Class?" />
+                     </children></AnchorPane>
+					</content>
+				</Tab>
+				<Tab fx:id="backgroundTab" closable="false" disable="true" text="Background">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <RadioButton fx:id="Acolyte" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Acolyte" />
+                        <RadioButton fx:id="Charlatan" layoutX="114.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Charlatan" />
+                        <RadioButton fx:id="Criminal" layoutX="214.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Criminal" />
+                        <RadioButton fx:id="Entertainer" layoutX="314.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Entertainer" />
+                        <RadioButton fx:id="FolkHero" layoutX="414.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Folk Hero" />
+                        <RadioButton fx:id="GuildArtisan" layoutX="514.0" layoutY="14.0" mnemonicParsing="false" onAction="#hoverBackground" text="Guild Artisan" />
+                        <RadioButton fx:id="Hermit" layoutX="14.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Hermit" />
+                        <RadioButton fx:id="Noble" layoutX="114.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Noble" />
+                        <RadioButton fx:id="Outlander" layoutX="214.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Outlander" />
+                        <RadioButton fx:id="Sage" layoutX="314.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Sage" />
+                        <RadioButton fx:id="Sailor" layoutX="414.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Sailor" />
+                        <RadioButton fx:id="Soldier" layoutX="514.0" layoutY="48.0" mnemonicParsing="false" onAction="#hoverBackground" text="Soldier" />
+                        <RadioButton fx:id="Urchin" layoutX="15.0" layoutY="78.0" mnemonicParsing="false" onAction="#hoverBackground" text="Urchin" />
+                        <TextArea fx:id="BackgroundInfo" editable="false" layoutX="14.0" layoutY="126.0" prefHeight="148.0" prefWidth="670.0" promptText="Information" wrapText="true" />
+                        <TextArea fx:id="PersonalityTraits" editable="false" layoutX="14.0" layoutY="299.0" prefHeight="155.0" prefWidth="134.0" promptText="Personality Traits:" wrapText="true" />
+                        <TextArea fx:id="Ideals" editable="false" layoutX="148.0" layoutY="300.0" prefHeight="154.0" prefWidth="135.0" promptText="Ideals:" wrapText="true" />
+                        <TextArea fx:id="Bonds" editable="false" layoutX="283.0" layoutY="299.0" prefHeight="155.0" prefWidth="132.0" promptText="Bonds:" wrapText="true" />
+                        <TextArea fx:id="Flaws" editable="false" layoutX="414.0" layoutY="298.0" prefHeight="156.0" prefWidth="126.0" promptText="Flaws:" wrapText="true" />
+                        <Button fx:id="submitBackground" layoutX="546.0" layoutY="427.0" mnemonicParsing="false" onAction="#submitBackground" text="Submit Background" />
+                        <Label layoutX="15.0" layoutY="282.0" text="Personality Traits:" />
+                        <Label layoutX="148.0" layoutY="282.0" text="Ideals:" />
+                        <Label layoutX="282.0" layoutY="282.0" text="Bonds:" />
+                        <Label layoutX="414.0" layoutY="282.0" text="Flaws:" />
+                        <Label layoutX="15.0" layoutY="109.0" text="Information:" />
+                     </children></AnchorPane>
+					</content>
+				</Tab>
+				<Tab fx:id="equipmentTab" closable="false" disable="true" text="Equipment">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="equipmentPane" layoutX="14.0" layoutY="14.0" prefHeight="376.0" prefWidth="670.0" />
+                        <TextField fx:id="copper" layoutX="14.0" layoutY="430.0" prefHeight="27.0" prefWidth="75.0" promptText="0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="silver" layoutX="89.0" layoutY="430.0" prefHeight="27.0" prefWidth="75.0" promptText="0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="electrum" layoutX="164.0" layoutY="430.0" prefHeight="27.0" prefWidth="75.0" promptText="0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="gold" layoutX="239.0" layoutY="430.0" prefHeight="27.0" prefWidth="75.0" promptText="0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="platinum" layoutX="312.0" layoutY="430.0" prefHeight="27.0" prefWidth="75.0" promptText="0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </TextField>
+                        <Label layoutX="14.0" layoutY="413.0" text="Copper:" />
+                        <Label layoutX="89.0" layoutY="413.0" text="Silver:" />
+                        <Label layoutX="164.0" layoutY="413.0" text="Electrum:" />
+                        <Label layoutX="239.0" layoutY="413.0" text="Gold:" />
+                        <Label layoutX="312.0" layoutY="413.0" text="Platinum:" />
+                        <Button fx:id="submitEquipment" layoutX="553.0" layoutY="430.0" mnemonicParsing="false" onAction="#submitEquipment" text="Submit Equipment" />
+                     </children></AnchorPane>
+					</content>
+				</Tab>
+				<Tab fx:id="completeTab" closable="false" disable="true" text="Complete">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="printCharacter" layoutX="14.0" layoutY="2.0" mnemonicParsing="false" onAction="#printCharacter" prefHeight="464.0" prefWidth="680.0" text="Print your Character to HTML" />
+                     </children></AnchorPane>
+					</content>
+				</Tab>
+			</tabs>
+		</TabPane>
+	</children>
+</AnchorPane>

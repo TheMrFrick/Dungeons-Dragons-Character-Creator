@@ -1,0 +1,201 @@
+Padded Armor:500
+Leather Armor:1000
+Studded Leather Armor:4500
+Hide Armor:1000
+Chain shirt Armor:5000
+Scale Mail Armor:5000
+Breastplate Armor:400000
+Half plate Armor:75000
+Ring Mail Armor:3000
+Chain Mail Armor:7500
+Splint Armor:20000
+Plate Armor:150000
+Shield:1000
+Club:10
+Dagger:200
+Greatclub:20
+Handaxe:500
+Javelin:50
+Light Hammer:200
+Mace:500
+QuarterStaff:20
+Sickle:100
+Spear:100
+Light Crossbow:2500
+Dart:5
+Shortbow:2500
+Sling:10
+Battleaxe:1000
+Flail:1000
+Glaive:2000
+Greataxe:3000
+Greatsword:5000
+Halberd:2000
+Lance:1000
+Longsword:1500
+Maul:1000
+Morningstar:1500
+Pike:500
+Rapier:2500
+Scimitar:2500
+Shortsword:1000
+Trident:500
+War pick:500
+Warhammer:1500
+Whip:200
+Blowgun:1000
+Hand Crossbow:7500
+Heavy Crossbow:5000
+Longbow:5000
+Net:100
+Abacus:200
+Acid (vial):2500
+Alchemist's Fire (flask):5000
+Arrows (20):100
+Blowgun Needles (50):100
+Crossbow Bolts (20):100
+Sling Bullets (20):4
+Antitoxin (vial):5000
+Crystal:1000
+Orb:2000
+Rod:1000
+Staff:500
+Wand:1000
+Backpack:200
+Ball Bearings (bag of 1000):100
+Barrel:200
+Basket:40
+Bedroll:100
+Bell:100
+Blanket:50
+Block and Tackle:100
+Book:2500
+Glass Bottle:200
+Bucket:5
+Caltrops (bad of 20):100
+Candle:1
+Crossbow Bolt Case:100
+Map or Scroll Case:100
+Chain (10 feet):500
+Chalk (1 piece):1
+Chest:500
+Climber's Kit:2500
+Common Clothes:50
+Costume Clothes:500
+Fine Clothes:1500
+Traveler's Clothes:200
+Component Pouch:2500
+Crowbar:200
+Sprig of Mistletoe:100
+Totem:100
+Wooden Staff:500
+Yew Wand:1000
+Fishing Tackle:100
+Flask or Tankard:2
+Grappling Hook:200
+Hammer:100
+Sledge Hammer:200
+Healer's Kit:500
+Amulet:500
+Emblem:500
+Reliquary:500
+Holy Water (flask):2500
+Hourglass:2500
+Hunting Trap:500
+Ink (1 ounce bottle):1000
+Ink pen:2
+Jug or Pitcher:2
+Ladder (10 foot):10
+Lamp:50
+Bullseye Lantern:1000
+Hooded Lantern:500
+Lock:1000
+Magnifying Glass:10000
+Manacles:200
+Mess kit:20
+Steel Mirror:500
+Oil (flask):10
+Paper (one sheet):20
+Parchment (one sheet):10
+Perfume (vial):500
+Miner's Pick:200
+Piton:5
+Basic Poison (vial):10000
+Pole (10 foot):5
+Iron Pot:200
+Potion of Healing:5000
+Pouch:50
+Quiver:100
+Portable Ram:400
+Rations (1 day):50
+Robes:100
+Hempen Rope (50 feet):100
+Silk Rope (50 feet):1000
+Sack:1
+Merchant's Scale:500
+Sealing Wax:50
+Shovel:200
+Signal Whistle:5
+Signet Ring:500
+Soap:2
+Spellbook:5000
+Iron Spikes (10):100
+Spyglass:100000
+Two-Person Tent:200
+Tinderbox:50
+Torch:1
+Vial:100
+Waterskin:20
+Whetstone:1
+Alchemist's Supplies:5000
+Brewer's Supplies:2000
+Caligrapher's Supplies:1000
+Carpenter's Tools:800
+Cobbler's Tools:500
+Cartographer's Tools:1500
+Cook's Utensils:100
+Glassblower's Tools:3000
+Jeweler's Tools:2500
+Leatherworker's Tools:500
+Mason's Tools:1000
+Painter's Supplies:1000
+Potter's Tools:1000
+Smith's Tools:2000
+Tinker's Tools:5000
+Weaver's Tools:100
+Woodcarver's Tools:100
+Disguise Kit:2500
+Forgery Kit:1500
+Dice Set:10
+Dragonchess Set:100
+Playing card Set:50
+Three-Dragon Ante Set:100
+Herbalism Kit:500
+Bagpipes:3000
+Drum:600
+Dulcimer:2500
+Flute:200
+Lute:3500
+Lyre:3000
+Horn:300
+Pan Flute:1200
+Shawm:200
+Viol:3000
+Navigator's Tools:2500
+Poisoner's Kit:5000
+Thieves' Tools:2500
+Camel:5000
+Donkey:800
+Mule:800
+Elephant:20000
+Draft Horse:5000
+Riding Horse:7500
+Mastiff:2500
+Pony:3000
+Warhorse:40000
+Galley:3000000
+Keepboat:300000
+Longship:1000000
+Rowboat:5000
+Sailing Ship:1000000 
+Warship:2500000

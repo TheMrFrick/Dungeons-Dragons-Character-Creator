@@ -1,0 +1,7 @@
+Padded Armor:1
+Leather Armor:2
+Studded Leather Armor:5
+Hide Armor:67
+Chain shirt Armor:45
+Scale Mail Armor:7
+Breastplate Armor:23
